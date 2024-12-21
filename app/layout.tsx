@@ -24,6 +24,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <head>
+        {/* Add Font Awesome CDN */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM0s5K5D1e1D1e1D1e1D1e1D1e1D1e1D1e1D1e"
+          crossOrigin="anonymous"
+          precedence="default" // Optional: specify precedence if needed
+        />
+        {/* Other head elements like meta tags can go here */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
